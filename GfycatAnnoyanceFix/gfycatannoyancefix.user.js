@@ -7,6 +7,8 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gfycat.com
 // @grant        none
 // @run-at       document-start
+// @downloadURL  https://github.com/0x4aK/UserScripts/raw/master/GfycatAnnoyanceFix/gfycatannoyancefix.user.js
+// @updateURL    https://github.com/0x4aK/UserScripts/raw/master/GfycatAnnoyanceFix/gfycatannoyancefix.user.js
 // ==/UserScript==
 
 (function () {

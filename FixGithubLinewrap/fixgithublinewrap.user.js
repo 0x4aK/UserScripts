@@ -7,6 +7,8 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        none
 // @run-at       document-start
+// @downloadURL  https://github.com/0x4aK/UserScripts/raw/master/FixGithubLinewrap/fixgithublinewrap.user.js
+// @updateURL    https://github.com/0x4aK/UserScripts/raw/master/FixGithubLinewrap/fixgithublinewrap.user.js
 // ==/UserScript==
 
 (function () {

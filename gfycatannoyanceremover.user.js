@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         GfycatAnnoyanceFix
+// @name         GfycatAnnoyanceRemover
 // @version      0.2
 // @description  Modifies Gfycat embeds to remove unnecessary stuff
 // @author       0x4aK
@@ -7,8 +7,8 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gfycat.com
 // @grant        none
 // @run-at       document-start
-// @downloadURL  https://github.com/0x4aK/UserScripts/raw/master/GfycatAnnoyanceFix/gfycatannoyancefix.user.js
-// @updateURL    https://github.com/0x4aK/UserScripts/raw/master/GfycatAnnoyanceFix/gfycatannoyancefix.user.js
+// @downloadURL  https://github.com/0x4aK/UserScripts/raw/master/gfycatannoyanceremover.user.js
+// @updateURL    https://github.com/0x4aK/UserScripts/raw/master/gfycatannoyanceremover.user.js
 // ==/UserScript==
 
 (function () {
@@ -18,8 +18,9 @@
     document.querySelector("video").controls = true;
   });
 
-  const s = document.createElement("style");
-  s.textContent = `
+  document.head.appendChild(
+    Object.assign(document.createElement("style"), {
+      textContent: `
 .iframe-container .iframe-player-container {
     height: inherit !important;
 }
@@ -28,8 +29,7 @@
 }
 .player-bottom {
     display: none !important;
-}
-`;
-
-  document.head.appendChild(s);
+}`,
+    })
+  );
 })();

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GfycatAnnoyanceRemover
-// @version      0.2
+// @version      0.3
 // @description  Modifies Gfycat embeds to remove unnecessary stuff
 // @author       0x4aK
 // @match        https://gfycat.com/ifr/*
@@ -25,6 +25,9 @@
     height: inherit !important;
 }
 .iframe__bottom {
+    display: none !important;
+}
+.iframe-top {
     display: none !important;
 }
 .player-bottom {

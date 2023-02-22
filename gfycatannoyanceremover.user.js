@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         GfycatAnnoyanceRemover
-// @version      0.4
+// @version      0.5
 // @description  Modifies Gfycat embeds to remove unnecessary stuff
 // @author       0x4aK
 // @match        https://gfycat.com/ifr/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gfycat.com
 // @grant        none
-// @run-at       document-start
+// @run-at       document-body
 // @downloadURL  https://github.com/0x4aK/UserScripts/raw/master/gfycatannoyanceremover.user.js
 // @updateURL    https://github.com/0x4aK/UserScripts/raw/master/gfycatannoyanceremover.user.js
 // ==/UserScript==
